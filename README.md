@@ -1,4 +1,4 @@
-# Day-11-Guardrails-HITL-Responsible-AI
+# Day-11-Guardrails-HITL-Responsible-AI 
 
 Day 11 — Guardrails, HITL & Responsible AI: How to make agent applications safe?
 

@@ -13,6 +13,12 @@ import sys
 import asyncio
 import argparse
 
+# Windows consoles default to a legacy codepage (cp1252) that can't print the
+# Vietnamese text used throughout this lab. Force UTF-8 so output never crashes.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+
 from core.config import setup_api_key
 
 
